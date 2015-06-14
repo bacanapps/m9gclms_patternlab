@@ -220,6 +220,20 @@ blockquote {
   color: gray;
   padding-left: 1em;
   margin-bottom: 1em; }
+  
+blockquote.azul {
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+  /* border-left: 5px solid #eee; */
+  background-color: #ccdbe0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+quotacaomedia
 
 /* Horizontal Rule */
 hr {
@@ -1247,4 +1261,45 @@ li.azul:before {
 	font-size: 2em;
     position: relative;
     top: 10px;
+}
+
+/*------------------------------------*\
+    $MODALS
+\*------------------------------------*/
+
+.saiba-mais a {
+  position: relative;
+  display: block;
+  padding: .8em .8em .8em .8em;
+  margin: 2em 0 .5em 2.5em;
+  background: #ffffff;
+  color: #024d65;
+  text-decoration: none;
+  transition: all .3s ease-out;
+  border-radius: 10px;
+  font-size:1.2em; 
+}
+
+a.colorbox-inline.init-colorbox-inline-processed.cboxElement {
+  color: #024d65 !important;
+  text-decoration: none;
+}
+
+
+.saiba-mais a:hover{
+    background: #eee;
+}   
+
+.saiba-mais a:before {
+  text-indent: 99999px;
+  content: counter(li);
+  counter-increment: li;
+  border-radius: 10px;
+  position: absolute;
+  top: +0.6em;
+  left: -1.5em;
+  width: 53px;
+  height: 53px;
+  background-image: url("http://dev-m9gclms.pantheon.io/sites/all/themes/m9gc_lms/Image_046.png");
+  text-decoration:none;
 }
