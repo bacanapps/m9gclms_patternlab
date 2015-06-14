@@ -1153,7 +1153,7 @@ ol.orange-bullet > li:before {
     line-height:28px; 
 }
 
-/* Blue rectangle ordered ßList */
+/* Blue rectangle ordered List */
 
 .rectangle-list a {
   position: relative;
@@ -1208,4 +1208,43 @@ ol.orange-bullet > li:before {
 .rectangle-list a:hover:after{
     left: -.5em;
     border-left-color: #fa8072;             
+}
+
+/* Blue circle unordered List */
+ul.lesson-list {
+  text-align: justify;
+  clear: left;
+  padding-top: 2%;
+  margin: 0 0 10px 25px;
+}
+
+#azul ul 
+{
+    list-style: none;
+    padding:0;
+
+}
+
+#azul li { 
+   /*  padding-left: 1em;  */
+    text-indent: -.7em;
+	text-align: justify;
+	line-height: 30px;
+
+}
+
+#azul li:before {
+    content: "• ";
+    color: #024d65; 
+	font-size: 2em;
+    position: relative;
+    top: 10px;
+}
+
+li.azul:before {
+    content: "• ";
+    color: #024d65; 
+	font-size: 2em;
+    position: relative;
+    top: 10px;
 }
